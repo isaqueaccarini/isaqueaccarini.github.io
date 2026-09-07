@@ -1,0 +1,39 @@
+.navbar-nav .nav-link, 
+.navbar .navbar-brand {
+    position: relative;
+    width: fit-content;
+    padding-bottom: 8px;
+}
+
+.navbar-nav .nav-link.active::after,
+.navbar .navbar-brand.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    font-weight: bold;
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+.navbar-nav .nav-link:not(.active)::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #aaaaaa;
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+.navbar-nav .nav-link:not(.active):hover::after {
+    width: 100%;
+    left: 0;
+}
+
+.navbar-collapse {
+    margin: 10px 0 10px 0;
+}
