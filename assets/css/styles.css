@@ -23,7 +23,8 @@
     transition: width 0.3s ease, left 0.3s ease;
 }
 
-.navbar-nav .nav-link:not(.active)::after {
+.navbar-nav .nav-link:not(.active)::after,
+.navbar .navbar-brand:not(.active)::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -34,7 +35,8 @@
     transition: width 0.3s ease, left 0.3s ease;
 }
 
-.navbar-nav .nav-link:not(.active):hover::after {
+.navbar-nav .nav-link:not(.active):hover::after,
+.navbar .navbar-brand:not(.active):hover::after {
     width: 100%;
     left: 0;
 }
@@ -68,7 +70,7 @@
 }
 
 .square-img {
-  width: 1000px;
-  height: 1000px;
+  width: 100%;
+  height: 50vh;
   object-fit: contain;       /* Mantém a foto inteira dentro do quadrado */
 }
