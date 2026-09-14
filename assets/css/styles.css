@@ -72,16 +72,7 @@
 .square-img {
   width: 100%;
   height: 50vh;
-  object-fit: contain;       /* Mantém a foto inteira dentro do quadrado */
-}
-
-.vertical-rule{
-    content: '';
-    width:10px;
-    height: 200px;
-    background-color: rgb(48, 48, 48);
-    border-radius: 20px;
-    margin: 10px 0 10px 100px;
+  object-fit: contain;
 }
 
 .wide-font{

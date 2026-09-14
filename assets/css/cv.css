@@ -1,0 +1,17 @@
+#cv-cont{
+    padding-left: 10vw;
+}
+
+.cv-ul{
+    padding-left: 2vw;
+    font-size: x-large
+}
+
+.cv-ul li > ul{
+    font-size: large;
+    padding-left: 2vw;
+}
+
+.cv-ul li > ul > li{
+    margin: 10px 0 10px;
+}
