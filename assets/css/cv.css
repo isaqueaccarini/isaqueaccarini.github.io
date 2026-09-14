@@ -4,6 +4,8 @@
 
 .cv-ul{
     padding-left: 2vw;
+    padding-bottom: 10px;
+    margin-bottom: 0;
     font-size: x-large
 }
 
@@ -13,5 +15,5 @@
 }
 
 .cv-ul li > ul > li{
-    margin: 10px 0 10px;
+    padding: 10px 0 10px;
 }
